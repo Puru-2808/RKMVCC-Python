@@ -68,7 +68,7 @@ for i in range(len(EE1)):
     N=integrate.simpson(yy**2,xx)
     yy=yy/(N**0.5)
 
-    plt.plot(xx, yy, label=f"E = {E:.3f}")
+    plt.plot(xx, yy)
 
 plt.xlabel("x")
 plt.ylabel("y(x)")
